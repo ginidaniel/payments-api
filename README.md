@@ -17,13 +17,10 @@ Run the jar at first, from the console:
 - http://localhost:8080/payments/{paymentID}
 
   - GET: Retrieves a JSON for the payment requested
+  - DELETE: Deletes an existing payment.
 
 - http://localhost:8080/payments
 
   - GET: Retrieves a JSON containing all the payments
-
-- http://localhost:8080/payments
-
   - POST: Creates/Persist a new payment.
   - PUT: Updates an existing payment.
-  - DELETE: Deletes an existing payment.
